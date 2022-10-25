@@ -3,7 +3,7 @@ import API from './fetchCountries';
 import debounce from 'lodash.debounce';
 import Notiflix from 'notiflix';
 
-const DEBOUNCE_DELAY = 1000;
+const DEBOUNCE_DELAY = 300;
 const inputRef = document.querySelector('#search-box');
 const ulRef = document.querySelector('.country-list');
 const divRef = document.querySelector('.country-info');
